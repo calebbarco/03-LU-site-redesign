@@ -21,6 +21,15 @@ body {
   margin: 0 auto 2rem;
   padding: 0 1rem;
 }
+
+.hero-img {
+  border-color: #B1E5E6;
+  border-width: 50px;
+  border-style: groove;
+}
+
+
+
 .conainer {
   max-width: 500px;
   margin: 0 auto;
@@ -33,13 +42,42 @@ h1, h2, h3 {
   line-height: 2.0;
 }
 
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
 /* Links & Accents */
 
 /* Images */
+img {
+  max-width: 100%;
+}
 
-/* Hero Section */
+/* Common Layout Elements */
+.header-content, .footer-content, main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 /* Main Content */
+main{
+  padding: 0 16px;
+}
 
 /* About Section */
 
