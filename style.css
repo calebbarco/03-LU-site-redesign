@@ -125,6 +125,13 @@ section {
   color: #124D1C;
   font-size: 40px;
   font-weight: bold;
+  text-decoration: underline;
+}
+
+.price-was {
+  color: #BD4444;
+  font-size: 20px;
+  text-decoration: line-through;
 }
 
 /* Visit Us Section */
