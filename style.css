@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 body {
-  color: black;
+  color: #2E2910;
   text-align: center;
-  background-color: #F3E6D5;
+  background-color: #C7D3C0;
   font-family: "raleway", sans-serif;
   line-height: 2.0;
 }
@@ -36,6 +36,7 @@ body {
   padding: 0 1.5rem
 }
 /* Typography */
+
 h1, h2, h3 {
   font-family: "merriweather", sans-serif;
   font-weight: 1000;
@@ -64,24 +65,67 @@ p {
 /* Links & Accents */
 
 /* Images */
+
 img {
   max-width: 100%;
 }
 
 /* Common Layout Elements */
+
 .header-content, .footer-content, main {
   max-width: 1000px;
   margin: 0 auto;
 }
 
 /* Main Content */
+
 main{
   padding: 0 16px;
 }
 
+section {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 800px;
+}
+
 /* About Section */
 
+.about-us {
+  border-bottom: 50px groove #B1E5E6;
+  padding-bottom: 60px;
+}
+
 /* Specials Section */
+
+.specials {
+  max-width: 1500px;
+  padding: 60px 0;
+}
+
+.specials-list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.special-offer {
+  flex: 1 1 250px;
+  max-width: 400px;
+  background-color: #B1E5E6;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 10px 15px 30px rgba(0,0,0, 0.1);
+}
+
+.price-now {
+  color: #124D1C;
+  font-size: 40px;
+  font-weight: bold;
+}
 
 /* Visit Us Section */
 
@@ -91,6 +135,7 @@ iframe {
 }
 
 /* Footer */
+
 footer {
   margin-top: 48px;
 }
