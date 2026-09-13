@@ -16,6 +16,12 @@ body {
 .header-content h1 {
   font-family: "raleway", "merriweather", sans-serif
 }
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
 #hero-container {
   max-width: auto-center;
   margin: 0 auto 2rem;
@@ -119,6 +125,22 @@ section {
   padding: 30px;
   text-align: center;
   box-shadow: 10px 15px 30px rgba(0,0,0, 0.1);
+}
+
+.seasonal-picks {
+   flex: 1 1 250px;
+  max-width: 400px;
+  background-color: #B1E5E6;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 10px 15px 30px rgba(0,0,0, 0.1);
+}
+
+.extra {
+  font-size: 10px;
+  margin: 10px 0;
+  font-style: italic;
 }
 
 .price-now {
